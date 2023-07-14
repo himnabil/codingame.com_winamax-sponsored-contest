@@ -85,7 +85,7 @@ def do_move (world: tuple[str, Sequence[Ball]] , m: tuple[int,int]):
     path_at = grid_at(grid)
     
     mutations = []
-    step = 1
+    step = 0
     if not (path_at(x, y) == '.'):
         return None
         
